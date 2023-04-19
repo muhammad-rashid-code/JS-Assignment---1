@@ -16,10 +16,7 @@
 // alert=(date)
 
 // __Task 1________Answer______________
-var zakatPercentage=(0.025);
-var userInput=+prompt("Enter your total wealth in USD:");
-var result=(zakatPercentage*userInput);
-alert("Your zakat value is "+result+"USD.")
+// git
 
 // var name="mark";
 // alert=(name)
