@@ -110,19 +110,4 @@ for (var i = 0; i < contactNumbers.length; i++) {
 // Task 6:
 // Create an Array that contains different products, and get input from the user in which you ask your user to give the position of that element he/she wants. Now remove that Item from your array and console the removed item, Also display the remaining items in the array and total number of items remaining.
 
-// ________________Task 6:_____________________Answer_____________________________
-
-var products = ['Apple', 'Hockey', 'Orange', 'Cat', 'watermelon'];
-var position = Number(prompt("Enter the position of the item you want to remove:\n0. Apple  \n1.Hockey  \n2.Orange \n3.Cat \n4.watermelon"));
-
-var removedItem = products.splice(position, 1)[0];
-console.log(`The removed item is ${removedItem}`);
-alert(`The removed item is ${removedItem}`);
-
-console.log(`The remaining items are ${products}`);
-alert(`The remaining items are ${products}`);
-
-console.log(`The total number of remaining items is ${products.length}`);
-alert(`The total number of remaining items is ${products.length}`);
-
-
+// ________________Task 6:_____________________Answer____________________________
