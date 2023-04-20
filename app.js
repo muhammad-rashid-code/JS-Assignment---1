@@ -16,10 +16,6 @@
 // alert=(date)
 
 // __Task 1________Answer______________
-// git
-
-// var name="mark";
-// alert=(name)
 
 // TASK 3:
 // Create a program that generates a random number between 1 and 10 and stores it
