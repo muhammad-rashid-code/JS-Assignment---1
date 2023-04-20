@@ -17,9 +17,7 @@
 
 // __Task 1________Answer______________
 
-// var zakatPercentage=0.025;   //%for zakat
-// var userInput=+prompt("Enter your total wealth in USD:(Enter Number Value)");
-// alert("Your zakat value is "+zakatPercentage*userInput+" USD.");
+
 
 // TASK 3:
 // Create a program that generates a random number between 1 and 10 and stores it
@@ -27,15 +25,15 @@
 // secret number using a prompt.Use an if-else statement to check if the user's guess matches the secret number. Ifthe guess is correct, display a message using an alert saying "Congratulations! You guessed the secret number". Otherwise, if the guess is too high or too low, display an appropriate message informing the user to guess again ?
 
 // ________TASK 3:___________________________________Answer__________________________________
-// var secretNumber = Math.floor(Math.random() * 10) + 1;
+var secretNumber = Math.floor(Math.random() * 10) + 1;
 
-// var guess = prompt("Guess the secret number (between 1 and 10)");
+var guess = prompt("Guess the secret number (between 1 and 10)");
 
-// if (guess == secretNumber) {
-//   alert("Congratulations! You guessed the secret number");
-// } else {
-//   alert("Sorry, the secret number was " + secretNumber + ". Better luck next time!");
-// }
+if (guess == secretNumber) {
+  alert("Congratulations! You guessed the secret number");
+} else {
+  alert("Sorry, the secret number was " + secretNumber + ". Better luck next time!");
+}
 
 // day 2 4/20
 
