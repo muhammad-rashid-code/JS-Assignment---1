@@ -75,3 +75,13 @@ while (selectedMethod === "") {
 let fitrahAmount = price * familyMembers;
 
 alert(`The fitrah amount for ${familyMembers} family members using ${selectedMethod} method is Rs ${fitrahAmount}.`);
+
+// Task 4:
+// Create a program that asks the user to enter a name, and then prints out the name with the first letter capitalized (Make your name in capitalized case).
+
+// _________________Task 4:________________Answer__________________
+var entername = prompt("Enter your name:");
+
+var capitalized = entername.charAt(0).toUpperCase() + entername.slice(1);
+
+alert("Your name in capitalized case is: " + capitalized);
