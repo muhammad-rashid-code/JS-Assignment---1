@@ -18,7 +18,7 @@
 // __Task 1________Answer______________
 
 var zakatPercentage = 0.025;   //%for zakat
-var userInput = +prompt("Enter your total wealth in USD:(Enter Number Value)");
+var userInput = +prompt("To Calculate Zakat Enter your total wealth in USD:(Enter Number Value)");
 alert("Your zakat value is " + zakatPercentage * userInput + " USD.");
 
 // TASK 3:
