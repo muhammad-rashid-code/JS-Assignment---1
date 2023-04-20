@@ -17,9 +17,9 @@
 
 // __Task 1________Answer______________
 
-var zakatPercentage=0.025;   //%for zakat
-var userInput=+prompt("Enter your total wealth in USD:(Enter Number Value)");
-alert("Your zakat value is "+zakatPercentage*userInput+" USD.");
+var zakatPercentage = 0.025;   //%for zakat
+var userInput = +prompt("Enter your total wealth in USD:(Enter Number Value)");
+alert("Your zakat value is " + zakatPercentage * userInput + " USD.");
 
 // TASK 3:
 // Create a program that generates a random number between 1 and 10 and stores it
@@ -47,11 +47,11 @@ if (guess == secretNumber) {
 let familyMembers = parseInt(prompt("Enter the total number of family members:"));
 
 let fitrahMethods = [
-  {name: "Wheat (Gandum)", price: 320},
-  {name: "Barley (Jau)", price: 800},
-  {name: "Dates (Khajoor)", price: 2800},
-  {name: "Raisins (Kishmish)", price: 6400},
-  {name: "Dates/ Ajwa Date", price: 10400}
+  { name: "Wheat (Gandum)", price: 320 },
+  { name: "Barley (Jau)", price: 800 },
+  { name: "Dates (Khajoor)", price: 2800 },
+  { name: "Raisins (Kishmish)", price: 6400 },
+  { name: "Dates/ Ajwa Date", price: 10400 }
 ];
 
 let selectedMethod = "";
@@ -102,8 +102,26 @@ for (var i = 0; i < 3; i++) {
 }
 
 for (var i = 0; i < contactNumbers.length; i++) {
-  console.log(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
-  alert(`Contact ${i+1}: ${contactNumbers[i]} (${contactNames[i]})`);
+  console.log(`Contact ${i + 1}: ${contactNumbers[i]} (${contactNames[i]})`);
+  alert(`Contact ${i + 1}: ${contactNumbers[i]} (${contactNames[i]})`);
 }
 
+
+// Task 6:
+// Create an Array that contains different products, and get input from the user in which you ask your user to give the position of that element he/she wants. Now remove that Item from your array and console the removed item, Also display the remaining items in the array and total number of items remaining.
+
+// ________________Task 6:_____________________Answer_____________________________
+
+var products = ['Apple', 'Hockey', 'Orange', 'Cat', 'watermelon'];
+var position = Number(prompt("Enter the position of the item you want to remove:\n0. Apple  \n1.Hockey  \n2.Orange \n3.Cat \n4.watermelon"));
+
+var removedItem = products.splice(position, 1)[0];
+console.log(`The removed item is ${removedItem}`);
+alert(`The removed item is ${removedItem}`);
+
+console.log(`The remaining items are ${products}`);
+alert(`The remaining items are ${products}`);
+
+console.log(`The total number of remaining items is ${products.length}`);
+alert(`The total number of remaining items is ${products.length}`);
 
