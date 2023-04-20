@@ -17,6 +17,10 @@
 
 // __Task 1________Answer______________
 
+var zakatPercentage=0.025;   //%for zakat
+var userInput=+prompt("Enter your total wealth in USD:(Enter Number Value)");
+alert("Your zakat value is "+zakatPercentage*userInput+" USD.");
+
 // TASK 3:
 // Create a program that generates a random number between 1 and 10 and stores it
 // in a variable called "secretNumber". Then, ask the user to enter a guess for the
@@ -33,3 +37,4 @@ if (guess == secretNumber) {
   alert("Sorry, the secret number was " + secretNumber + ". Better luck next time!");
 }
 
+// day 2 4/20
