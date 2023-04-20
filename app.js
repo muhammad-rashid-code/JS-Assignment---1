@@ -125,3 +125,4 @@ alert(`The remaining items are ${products}`);
 console.log(`The total number of remaining items is ${products.length}`);
 alert(`The total number of remaining items is ${products.length}`);
 
+
