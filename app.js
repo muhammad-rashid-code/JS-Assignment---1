@@ -125,3 +125,32 @@ alert(`The remaining items are ${products}`);
 
 console.log(`The total number of remaining items is ${products.length}`);
 alert(`The total number of remaining items is ${products.length}`);
+
+// Task 7:
+// Create a program that asks the user for their nationality, gender, and age using the prompt function. The program should then use nested if-else statements to determine if the person is eligible to vote. 
+// First, the program should check if the person is Pakistani or Indian. If they are not, the program should display a message saying they are not eligible to vote. 
+// If they are Pakistani or Indian, the program should then check their gender. If the person is male and over the age of 18, they are eligible to vote. If the person is female and over the age of 18, the program should ask if they are married. If they are married, they are eligible to vote. If they are not married, they are not eligible to vote. 
+// If the person is under 18, the program should display a message saying they are not eligible to vote.
+
+// _______________Task 7:______________Answer________________________________
+
+var nationality = prompt("What is your nationality? Enter 1 for Pakistani and 2 for Indian:");
+var gender = prompt("What is your gender? Enter 1 for male and 2 for female:");
+var age = Number(prompt("What is your age?"));
+
+if (nationality == 1) {
+  if (gender == 1 && age >= 18) {
+    alert("You are eligible to vote!");
+  } else if (gender == 2 && age >= 18) {
+    var isMarried = prompt("Are you married? Enter 1 for yes and 2 for no:");
+    if (isMarried == 1) {
+      alert("You are eligible to vote!");
+    } else {
+      alert("You are not eligible to vote.");
+    }
+  } else {
+    alert("You are not eligible to vote.");
+  }
+} else {
+  alert("You are not eligible to vote.");
+}
